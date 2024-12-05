@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .slider-container {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .slider {
+    position: relative;
+  }
+  
+  .slider img {
+    width: 100%;
+    display: block;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color: #ffe607;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(248, 224, 11, 0.7);
+  }
+  
+  center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgb(255, 251, 7);
+    color:rgb(233, 250, 4);
+    border: rgb(251, 255, 6);
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
+  .controls {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 200px;
+  }
+  
+  select {
+    padding: 10px;
+  }
